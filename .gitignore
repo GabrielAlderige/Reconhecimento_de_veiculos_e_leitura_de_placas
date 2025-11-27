@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- IDEs ----
+.vscode/
+*.code-workspace
+
+# ---- Cache / configs ----
+*.DS_Store
+*.cache/
+.cache/
+
+# ---- Ultralytics / YOLO ----
+runs/
+*.pt
+!yolov8n.pt
+!best.pt
+
+# Explicação:
+# Ignora todos os modelos .pt, EXCETO seus dois modelos usados no projeto.
+# Isso evita que uploads pesados entrem sem querer no repositório.
+
+# ---- Imagens / Vídeos usados para testes ----
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+
+# ---- Arquivos de sistema ----
+Thumbs.db
